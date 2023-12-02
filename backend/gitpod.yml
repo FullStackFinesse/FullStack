@@ -1,0 +1,7 @@
+# .gitpod.yml
+
+ports:
+  - port: 5000
+    onOpen: ignore
+tasks:
+  - command: yarn server # Reemplaza esto con el comando para iniciar tu servidor backend
